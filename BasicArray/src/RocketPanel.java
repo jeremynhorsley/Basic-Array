@@ -36,7 +36,7 @@ public class RocketPanel extends JPanel
    {
       super.paintComponent (page);
 
-      page.setColor (Color.cyan);
+      page.setColor (Color.green);  //testing out github commits changed to green
       page.fillPolygon (xRocket, yRocket, xRocket.length);
 
       page.setColor (Color.gray);
